@@ -8,7 +8,7 @@ CREATE TABLE Trainer
 (
 	trainer_id char(4) primary key,
     trainer_name varchar(30) not null,
-    track varchar(10),
+    track varchar(20),
     qualification varchar(20),
     experience varchar(40)
 ); 
@@ -19,7 +19,7 @@ CREATE TABLE Associate
 	#ID INT AUTO_INCREMENT,
 	trainee_name varchar(30) not null,
     trainee_id int(4) AUTO_INCREMENT primary key,
-    track varchar(10),
+    track varchar(20),
     qualification varchar(20),
     experience varchar(40),
     trainer_id char(4) not null,
