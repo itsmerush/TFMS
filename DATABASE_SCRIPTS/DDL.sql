@@ -58,6 +58,7 @@ CREATE TABLE Feedback
 	trainer_id char(4),
     trainee_id int(4),
 	question_id char(5) not null,
+    rating ENUM('1','2','3','4','5'),
     FOREIGN KEY (question_id) REFERENCES Question(question_id),
     FOREIGN KEY (trainer_id,trainee_id) REFERENCES Batch(trainer_id,trainee_id)
 );
