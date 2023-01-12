@@ -34,7 +34,6 @@ CREATE TABLE Batch
     traineeId int(4),
     startDate date not null,
     endDate date not null,
-    primary key(trainerId,traineeId),
     FOREIGN KEY (trainerId) REFERENCES Trainer(trainerId),
     FOREIGN KEY (traineeId) REFERENCES Associate(traineeId)
     
