@@ -1,5 +1,5 @@
 USE TFMS;
-DELETE FROM trainer;
+#DELETE FROM trainer;
 
 INSERT INTO  trainer 
 VALUES 
@@ -11,10 +11,10 @@ VALUES
 ;
 #select * from trainer;
 
-DELETE FROM Associate;
+#DELETE FROM Associate;
 
 INSERT INTO  Associate 
-(trainee_name,trainee_id,track,qualification,experience,trainer_id)
+(traineeName,traineeId,track,qualification,experience,trainerId)
 VALUES 
 ('GD',0,'Java Fullstack','ME','1 Year','A005'),
 ('Gopika',NULL,'Dot Net','BE','1 Year','A005'),
@@ -27,7 +27,7 @@ select * from Associate;
 
 
 
-DELETE FROM Batch;
+#DELETE FROM Batch;
 
 INSERT INTO  Batch 
 VALUES 
