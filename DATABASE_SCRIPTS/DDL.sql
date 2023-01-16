@@ -56,6 +56,7 @@ CREATE TABLE Feedback
 (
 	trainerId char(4),
     traineeId int(4),
+    topic varchar(20),
 	questionId char(5) not null,
     rating ENUM('1','2','3','4','5'),
     FOREIGN KEY (questionId) REFERENCES Question(questionId),

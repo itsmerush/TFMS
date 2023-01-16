@@ -1,5 +1,10 @@
 package com.revature.aplication;
-import com.revature.model.TrainerInput;
+import com.revature.dao.FeedbackDao;
+import com.revature.dao.TrainerDao;
+import com.revature.daoImpl.FeedbackDaoImpl;
+import com.revature.daoImpl.TrainerDaoImpl;
+
+
 import java.util.*;
 
 public class App {
@@ -49,11 +54,14 @@ public class App {
 				
 				switch(checkAdminExitMenu) {
 				case 1:
-					TrainerInput.setTrainerInput();
+					TrainerDao x=new TrainerDaoImpl();
+					x.setTrainer();
+					
 					break;
 				case 2:
 					System.out.println("Logged in as Associate");
 					break;
+				
 				default:
 					System.out.println("Please Enter Correct Option");
 			
@@ -66,11 +74,32 @@ public class App {
 		}
 		else {
 			do {
-				System.out.println("Give Feedback: Press 1");
+				System.out.println("Update Details: Press 1");
+				System.out.println("Give Feedback: Press 2");
 				System.out.println("Exit : 0");
 				
 				checkAssociateExitMenu=sc.nextInt();
 				sc.nextLine();
+				
+				switch(checkAssociateExitMenu) {
+				case 1:
+					//FeedbackDao feedbackObj=new FeedbackDaoImpl();
+					//feedbackObj.setFeedback();
+					
+					break;
+				case 2:
+					FeedbackDao feedbackObj=new FeedbackDaoImpl();
+					feedbackObj.setFeedback();
+					feedbackObj.showFeedback();
+					
+					break;
+				default:
+					System.out.println("Please Enter Correct Option");
+			
+			}
+				
+				
+				
 				
 				
 				

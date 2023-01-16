@@ -1,61 +1,37 @@
 package com.revature.model;
 
-public class Question {
+import com.revature.util.QuestionsSection;
+
+public class QuestionManagement {
 	String questionId;
-	String questionSection;
+	QuestionsSection questionSection;
 	String questionText;
 	
 	
-	
-	public Question() {
-		super();
+	public QuestionManagement() {
 	}
-
-
-
-	public Question(String questionId, String questionSection, String questionText) {
-		super();
+	public QuestionManagement(String questionId, QuestionsSection questionSection, String questionText) {
 		this.questionId = questionId;
 		this.questionSection = questionSection;
 		this.questionText = questionText;
 	}
-
-
-
 	public String getQuestionId() {
 		return questionId;
 	}
-
-
-
-	public void setQuestionId(String questionId) {
+	public void setQuestion_id(String questionId) {
 		this.questionId = questionId;
 	}
-
-
-
-	public String getQuestionSection() {
+	public QuestionsSection getQuestionSection() {
 		return questionSection;
 	}
-
-
-
-	public void setQuestionSection(String questionSection) {
+	public void setQuestionSection(QuestionsSection questionSection) {
 		this.questionSection = questionSection;
 	}
-
-
-
 	public String getQuestionText() {
 		return questionText;
 	}
-
-
-
 	public void setQuestionText(String questionText) {
 		this.questionText = questionText;
 	}
-	
-	
 	
 }

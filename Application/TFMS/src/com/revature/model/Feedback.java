@@ -1,10 +1,13 @@
 package com.revature.model;
 
-public class Feedback extends Question{
+import com.revature.util.Rating;
+
+public class Feedback extends QuestionManagement{
 	String traineeId;
     String trainerId;
+    String topic;
 	String questionId;
-    String rating;
+    Rating rating;
     
     
     
@@ -14,10 +17,11 @@ public class Feedback extends Question{
 
 
 
-	public Feedback(String traineeId, String trainerId, String questionId, String rating) {
+	public Feedback(String traineeId, String trainerId,String topic, String questionId, Rating rating) {
 		super();
 		this.traineeId = traineeId;
 		this.trainerId = trainerId;
+		this.topic = topic;
 		this.questionId = questionId;
 		this.rating = rating;
 	}
@@ -45,6 +49,16 @@ public class Feedback extends Question{
 	public void setTrainerId(String trainerId) {
 		this.trainerId = trainerId;
 	}
+	
+	public String getTopic() {
+		return topic;
+	}
+
+
+
+	public void setTopic(String trainerId) {
+		this.topic = trainerId;
+	}
 
 
 
@@ -60,13 +74,13 @@ public class Feedback extends Question{
 
 
 
-	public String getRating() {
+	public Rating getRating() {
 		return rating;
 	}
 
 
 
-	public void setRating(String rating) {
+	public void setRating(Rating rating) {
 		this.rating = rating;
 	}
 	
