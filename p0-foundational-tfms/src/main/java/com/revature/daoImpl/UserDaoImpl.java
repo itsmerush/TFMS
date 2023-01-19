@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 
 import com.revature.aplication.App;
 import com.revature.dao.UserDao;
+import com.revature.model.User;
 
 public class UserDaoImpl implements UserDao{
 	private static final Logger logger=Logger.getLogger(UserDaoImpl.class);
@@ -60,5 +61,44 @@ public class UserDaoImpl implements UserDao{
 		}
 		return "";
 	}
+
+	@Override
+	public User getUserForTest(User uu) {
+
+		Connection con = null;
+
+		con = App.con;
+
+		try {
+
+		java.sql.Statement stm = con.createStatement();
+
+		ResultSet rs = stm.executeQuery("SELECT * FROM User");
+
+		while(rs.next()) {
+
+		if (uu.getUsername().equals(rs.getString(1)) && uu.getPassword().equals(rs.getString(2))){
+
+		uu.setUsername(rs.getString(1));
+
+		uu.setPassword(rs.getString(2));
+
+		uu.setRole(rs.getString(3));
+
+		}
+
+		}
+
+		}catch(SQLException e ){
+
+		System.out.println(e.getMessage());
+
+		}
+
+		
+
+		return uu;
+
+		}
 
 }

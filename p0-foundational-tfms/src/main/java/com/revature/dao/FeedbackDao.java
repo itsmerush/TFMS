@@ -15,4 +15,10 @@ public interface FeedbackDao {
 	
 	
 	public void showFeedback();
+
+
+	public int addFeedbackforTesting(List<Feedback> feedbackList);
+
+
+	public int getFeedbackAvg(String string);
 }
