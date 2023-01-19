@@ -18,6 +18,8 @@ public class FeedbackServiceImpl  implements FeedbackService{
 	public HashMap<String, Integer []> setFeedbackInput(Feedback F) {
 		
 		
+		System.out.println("IN project");
+		
 		//This objects are for dummy use , we need to get question management list till here
 		List<QuestionManagement>yyyyy=QuestionManagementDao.getQuestions();
 		QuestionManagement q=new QuestionManagement();

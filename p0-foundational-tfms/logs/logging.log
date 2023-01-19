@@ -1,0 +1,71 @@
+2023-01-18 21:58:10 INFO  App:35 - **********Welcome to Training Feedback Management System**********
+2023-01-18 21:58:10 INFO  App:36 - Enter username
+2023-01-18 21:58:45 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-18 21:58:45 INFO  App:36 - 
+Enter username
+2023-01-18 22:40:20 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-18 22:40:20 INFO  App:36 - 
+Enter username
+2023-01-18 22:40:35 INFO  App:38 - Enter Password
+2023-01-18 22:40:43 INFO  FeedbackServiceImpl:153 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-18 22:40:43 INFO  FeedbackServiceImpl:154 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-18 22:40:43 INFO  FeedbackServiceImpl:155 - 
+3 - Show Overall Average Rating 
+2023-01-18 22:40:43 INFO  FeedbackServiceImpl:156 - 
+0 - Exit
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:167 - 
+Topic --->Section --->Average Rating
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+Android0.9    INSTRUCTOR    4.5
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+JDBC    INSTRUCTOR    2.5
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+Android0.9    COURSEMATERIAL    2.5
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+JDBC    COURSEMATERIAL    4.5
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+Android0.9    Learning Effectiveness    2.0
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+JDBC    Learning Effectiveness    1.0
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+Android0.9    Environment    2.0
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+JDBC    Environment    2.5
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+Android0.9    Job Impact    5.0
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:169 - 
+JDBC    Job Impact    4.0
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:153 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:154 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:155 - 
+3 - Show Overall Average Rating 
+2023-01-18 22:41:12 INFO  FeedbackServiceImpl:156 - 
+0 - Exit
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:179 - 
+Trainer Name    Average Rating
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:181 - GD --->3.125
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:181 - Gopika --->3.0
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:153 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:154 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:155 - 
+3 - Show Overall Average Rating 
+2023-01-18 22:42:10 INFO  FeedbackServiceImpl:156 - 
+0 - Exit
+2023-01-18 22:44:01 INFO  FeedbackServiceImpl:192 - 
+Overall Rating --->3.0625
+2023-01-18 22:44:01 INFO  FeedbackServiceImpl:153 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-18 22:44:01 INFO  FeedbackServiceImpl:154 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-18 22:44:01 INFO  FeedbackServiceImpl:155 - 
+3 - Show Overall Average Rating 
+2023-01-18 22:44:01 INFO  FeedbackServiceImpl:156 - 
+0 - Exit

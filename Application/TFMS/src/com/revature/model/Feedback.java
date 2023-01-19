@@ -8,6 +8,13 @@ public class Feedback extends QuestionManagement{
     String topic;
 	String questionId;
     Rating rating;
+    int insRating;
+    int courseRating;
+    int jiRating;
+    int enRating;
+    int LeRating;
+    int ovrRating;
+    
     
     
     
@@ -17,14 +24,23 @@ public class Feedback extends QuestionManagement{
 
 
 
-	public Feedback(String traineeId, String trainerId,String topic, String questionId, Rating rating) {
+
+	public Feedback(String traineeId, String trainerId, String topic, String questionId, Rating rating, int insRating,
+			int courseRating, int jiRating, int enRating, int leRating, int ovrRating) {
 		super();
 		this.traineeId = traineeId;
 		this.trainerId = trainerId;
 		this.topic = topic;
 		this.questionId = questionId;
 		this.rating = rating;
+		this.insRating = insRating;
+		this.courseRating = courseRating;
+		this.jiRating = jiRating;
+		this.enRating = enRating;
+		LeRating = leRating;
+		this.ovrRating = ovrRating;
 	}
+
 
 
 
@@ -34,9 +50,11 @@ public class Feedback extends QuestionManagement{
 
 
 
+
 	public void setTraineeId(String traineeId) {
 		this.traineeId = traineeId;
 	}
+
 
 
 
@@ -46,19 +64,25 @@ public class Feedback extends QuestionManagement{
 
 
 
+
 	public void setTrainerId(String trainerId) {
 		this.trainerId = trainerId;
 	}
-	
+
+
+
+
 	public String getTopic() {
 		return topic;
 	}
 
 
 
-	public void setTopic(String trainerId) {
-		this.topic = trainerId;
+
+	public void setTopic(String topic) {
+		this.topic = topic;
 	}
+
 
 
 
@@ -68,9 +92,11 @@ public class Feedback extends QuestionManagement{
 
 
 
+
 	public void setQuestionId(String questionId) {
 		this.questionId = questionId;
 	}
+
 
 
 
@@ -80,10 +106,98 @@ public class Feedback extends QuestionManagement{
 
 
 
+
 	public void setRating(Rating rating) {
 		this.rating = rating;
 	}
-	
+
+
+
+
+	public int getInsRating() {
+		return insRating;
+	}
+
+
+
+
+	public void setInsRating(int insRating) {
+		this.insRating = insRating;
+	}
+
+
+
+
+	public int getCourseRating() {
+		return courseRating;
+	}
+
+
+
+
+	public void setCourseRating(int courseRating) {
+		this.courseRating = courseRating;
+	}
+
+
+
+
+	public int getJiRating() {
+		return jiRating;
+	}
+
+
+
+
+	public void setJiRating(int jiRating) {
+		this.jiRating = jiRating;
+	}
+
+
+
+
+	public int getEnRating() {
+		return enRating;
+	}
+
+
+
+
+	public void setEnRating(int enRating) {
+		this.enRating = enRating;
+	}
+
+
+
+
+	public int getLeRating() {
+		return LeRating;
+	}
+
+
+
+
+	public void setLeRating(int leRating) {
+		LeRating = leRating;
+	}
+
+
+
+
+	public int getOvrRating() {
+		return ovrRating;
+	}
+
+
+
+
+	public void setOvrRating(int ovrRating) {
+		this.ovrRating = ovrRating;
+	}
+    
+    
+    
+    
 }
 
 	
