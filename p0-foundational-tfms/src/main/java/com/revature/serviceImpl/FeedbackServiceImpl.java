@@ -89,7 +89,7 @@ public class FeedbackServiceImpl  implements FeedbackService{
 		
 		
 		
-		System.out.println(traineeName);
+		//System.out.println(traineeName);
 		
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
@@ -97,10 +97,6 @@ public class FeedbackServiceImpl  implements FeedbackService{
 		//F.setTraineeId(tempAssociateId);
 		logger.info("\nEnter the Trainer ID");
 		String trainerName=sc.nextLine();
-
-		//logger.info("\nEnter the Associate ID");
-		//String traineeName=sc.nextLine();
-		
 		
 		logger.info("\nEnter the Topic");
 		String topic=sc.nextLine();

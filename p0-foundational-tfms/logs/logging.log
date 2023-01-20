@@ -470,3 +470,139 @@ The physical environment (e.g. classroom space, air-conditioning) was conducive 
  This training will improve your job performance.
 2023-01-20 11:07:14 INFO  FeedbackServiceImpl:141 - 
 *******Thank You For Your Valueable Feedback*******
+2023-01-20 12:48:27 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 12:48:27 INFO  App:36 - 
+Enter username
+2023-01-20 12:48:27 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 12:48:27 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 12:48:27 INFO  App:36 - 
+Enter username
+2023-01-20 12:48:27 INFO  App:36 - 
+Enter username
+2023-01-20 12:49:06 INFO  App:38 - Enter Password
+2023-01-20 12:49:11 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 12:49:33 INFO  FeedbackServiceImpl:101 - 
+Enter the Topic
+2023-01-20 12:49:39 INFO  FeedbackServiceImpl:106 - 
+Enter the rating for below questions
+2023-01-20 12:49:39 INFO  FeedbackServiceImpl:116 - 
+Instructor knowledgeable and able to handle all your queries
+2023-01-20 12:50:35 INFO  FeedbackServiceImpl:137 - 
+*******Thank You For Your Valueable Feedback*******
+2023-01-20 18:37:16 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 18:37:16 INFO  App:36 - 
+Enter username
+2023-01-20 18:38:04 INFO  App:38 - Enter Password
+2023-01-20 18:38:09 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 18:38:28 INFO  FeedbackServiceImpl:101 - 
+Enter the Topic
+2023-01-20 18:38:40 INFO  FeedbackServiceImpl:106 - 
+Enter the rating for below questions
+2023-01-20 18:38:40 INFO  FeedbackServiceImpl:116 - 
+Instructor knowledgeable and able to handle all your queries
+2023-01-20 18:39:28 INFO  FeedbackServiceImpl:116 - 
+All the topics in a particular course handled by the trainer without any gaps or slippages
+2023-01-20 18:39:32 INFO  FeedbackServiceImpl:116 - 
+ This training will improve your job performance.
+2023-01-20 18:39:33 INFO  FeedbackServiceImpl:116 - 
+The course materials (presentation, hands-on,  etc.) referred during the training are relevant and useful.
+2023-01-20 18:39:35 INFO  FeedbackServiceImpl:116 - 
+Knowledge and skills presented in this training are applicable at your work
+2023-01-20 18:39:36 INFO  FeedbackServiceImpl:116 - 
+The course materials referand useful.
+2023-01-20 18:39:37 INFO  FeedbackServiceImpl:116 - 
+The physical environment (e.g. classroom space, air-conditioning) was conducive to learning.
+2023-01-20 18:39:39 INFO  FeedbackServiceImpl:116 - 
+ This training will improve your job performance.
+2023-01-20 18:39:41 INFO  FeedbackServiceImpl:137 - 
+*******Thank You For Your Valueable Feedback*******
+2023-01-20 18:40:29 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 18:40:29 INFO  App:36 - 
+Enter username
+2023-01-20 18:40:47 INFO  App:38 - Enter Password
+2023-01-20 18:40:51 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-20 18:40:51 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-20 18:40:51 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-20 18:40:51 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+JDBC    INSTRUCTOR    4.5
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Android0.9    INSTRUCTOR    2.5
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Junit    INSTRUCTOR    3.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+JDBC    COURSEMATERIAL    2.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Android0.9    COURSEMATERIAL    4.5
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Junit    COURSEMATERIAL    4.5
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+JDBC    Learning Effectiveness    3.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Learning Effectiveness    2.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Junit    Learning Effectiveness    1.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+JDBC    Environment    2.5
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Environment    3.5
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Junit    Environment    4.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+JDBC    Job Impact    5.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Job Impact    5.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:180 - 
+Junit    Job Impact    2.0
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-20 18:41:10 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:190 - 
+Trainer Name    Average Rating
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:192 - Gopika --->3.25
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:192 - GD --->3.5
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:192 - Sathya --->3.25
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-20 18:41:42 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-20 18:41:57 INFO  FeedbackServiceImpl:203 - 
+Overall Rating --->3.3333333333333335
+2023-01-20 18:41:57 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-20 18:41:57 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-20 18:41:57 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-20 18:41:57 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-20 18:42:53 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 18:42:53 INFO  App:36 - 
+Enter username
+2023-01-20 18:43:18 INFO  App:38 - Enter Password
+2023-01-20 18:43:21 INFO  FeedbackServiceImpl:238 - 
+Trainer Name    Average Rating
+2023-01-20 18:43:21 INFO  FeedbackServiceImpl:240 - GD --->3.5
