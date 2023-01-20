@@ -402,3 +402,71 @@ Enter username
 2023-01-20 10:21:22 INFO  FeedbackServiceImpl:227 - 
 Trainer Name    Average Rating
 2023-01-20 10:21:22 INFO  FeedbackServiceImpl:229 - Gopika --->3.25
+2023-01-20 10:58:56 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:58:56 INFO  App:36 - 
+Enter username
+2023-01-20 10:59:00 INFO  App:38 - Enter Password
+2023-01-20 10:59:06 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 10:59:40 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:59:40 INFO  App:36 - 
+Enter username
+2023-01-20 10:59:47 INFO  App:38 - Enter Password
+2023-01-20 10:59:50 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 11:00:35 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 11:00:35 INFO  App:36 - 
+Enter username
+2023-01-20 11:00:40 INFO  App:38 - Enter Password
+2023-01-20 11:00:44 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 11:01:08 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 11:01:08 INFO  App:36 - 
+Enter username
+2023-01-20 11:01:12 INFO  App:38 - Enter Password
+2023-01-20 11:01:16 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 11:01:30 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 11:01:30 INFO  App:36 - 
+Enter username
+2023-01-20 11:06:07 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 11:06:07 INFO  App:36 - 
+Enter username
+2023-01-20 11:06:12 INFO  App:38 - Enter Password
+2023-01-20 11:06:16 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 11:06:40 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 11:06:40 INFO  App:36 - 
+Enter username
+2023-01-20 11:06:44 INFO  App:38 - Enter Password
+2023-01-20 11:06:48 INFO  FeedbackServiceImpl:98 - 
+Enter the Trainer ID
+2023-01-20 11:06:55 INFO  FeedbackServiceImpl:105 - 
+Enter the Topic
+2023-01-20 11:07:04 INFO  FeedbackServiceImpl:110 - 
+Enter the rating for below questions
+2023-01-20 11:07:04 INFO  FeedbackServiceImpl:120 - 
+Instructor knowledgeable and able to handle all your queries
+2023-01-20 11:07:06 INFO  FeedbackServiceImpl:120 - 
+All the topics in a particular course handled by the trainer without any gaps or slippages
+2023-01-20 11:07:07 INFO  FeedbackServiceImpl:120 - 
+ This training will improve your job performance.
+2023-01-20 11:07:08 INFO  FeedbackServiceImpl:120 - 
+The course materials (presentation, hands-on,  etc.) referred during the training are relevant and useful.
+2023-01-20 11:07:08 INFO  FeedbackServiceImpl:120 - 
+Knowledge and skills presented in this training are applicable at your work
+2023-01-20 11:07:11 INFO  FeedbackServiceImpl:120 - 
+The course materials referand useful.
+2023-01-20 11:07:11 INFO  FeedbackServiceImpl:120 - 
+The physical environment (e.g. classroom space, air-conditioning) was conducive to learning.
+2023-01-20 11:07:13 INFO  FeedbackServiceImpl:120 - 
+ This training will improve your job performance.
+2023-01-20 11:07:14 INFO  FeedbackServiceImpl:141 - 
+*******Thank You For Your Valueable Feedback*******

@@ -26,7 +26,7 @@ public class FeedbackServiceImpl  implements FeedbackService{
 	private static final Logger logger=Logger.getLogger(FeedbackServiceImpl.class);
 	
 	@Override
-	public void setFeedbackInput(Feedback F) {
+	public void setFeedbackInput(Feedback F,String username) {
 		
 		
 		try {
@@ -68,13 +68,28 @@ public class FeedbackServiceImpl  implements FeedbackService{
 		
 		
 		
+		String traineeName="";
+		
+		try {
+			Connection connection=App.con;
+			Statement stmt2=connection.createStatement();
+			String sql2="select trainee_id from associate where trainee_Name='associateNameToBeInserted';";
+			String sql3=sql2.replace("associateNameToBeInserted", username);
+			ResultSet rs2=stmt2.executeQuery(sql3);
+			while(rs2.next()) {
+				traineeName=rs2.getString(1);
+			
+			
+			}
+		}catch (SQLException e) {
+			e.printStackTrace();
+	}
 		
 		
-
 		
 		
 		
-		
+		System.out.println(traineeName);
 		
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
@@ -83,8 +98,8 @@ public class FeedbackServiceImpl  implements FeedbackService{
 		logger.info("\nEnter the Trainer ID");
 		String trainerName=sc.nextLine();
 
-		logger.info("\nEnter the Associate ID");
-		String traineeName=sc.nextLine();
+		//logger.info("\nEnter the Associate ID");
+		//String traineeName=sc.nextLine();
 		
 		
 		logger.info("\nEnter the Topic");

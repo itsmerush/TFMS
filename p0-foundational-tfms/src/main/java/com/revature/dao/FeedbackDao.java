@@ -11,7 +11,7 @@ import com.revature.model.Trainer;
 public interface FeedbackDao {
 	
 	
-	public void setFeedback();
+	public void setFeedback(String username);
 	
 	
 	public void showFeedback();

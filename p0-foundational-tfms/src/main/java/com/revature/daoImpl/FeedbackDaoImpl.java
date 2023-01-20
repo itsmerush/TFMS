@@ -19,11 +19,11 @@ import com.revature.serviceImpl.FeedbackServiceImpl;
 public class FeedbackDaoImpl implements FeedbackDao{
 
 	@Override
-	public void setFeedback() {
+	public void setFeedback(String username) {
 		// TODO Auto-generated method stub
 		Feedback F=new Feedback();
 		FeedbackService FB=new FeedbackServiceImpl();
-		FB.setFeedbackInput(F);
+		FB.setFeedbackInput(F,username);
 		
 		
 		
