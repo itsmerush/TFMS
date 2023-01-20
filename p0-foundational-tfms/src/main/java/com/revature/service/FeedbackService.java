@@ -10,4 +10,5 @@ public interface FeedbackService {
 	public void setFeedbackInput(Feedback F);
 
 	public void showFeedbackDetailsByParameters();
+	public void showFeedbackDetailsForTrainer(String username);
 }

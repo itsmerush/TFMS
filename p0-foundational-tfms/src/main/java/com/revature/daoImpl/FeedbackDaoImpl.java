@@ -110,4 +110,12 @@ public class FeedbackDaoImpl implements FeedbackDao{
 		return avg;
 	}
 
+	@Override
+	public void showFeedbackTrainer(String username) {
+		// TODO Auto-generated method stub
+		FeedbackService FB=new FeedbackServiceImpl();
+		FB.showFeedbackDetailsForTrainer(username);
+		
+	}
+
 }

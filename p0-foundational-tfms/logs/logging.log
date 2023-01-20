@@ -345,3 +345,60 @@ The physical environment (e.g. classroom space, air-conditioning) was conducive 
  This training will improve your job performance.
 2023-01-19 22:38:06 INFO  FeedbackServiceImpl:126 - 
 *******Thank You For Your Valueable Feedback*******
+2023-01-20 09:49:29 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 09:49:29 INFO  App:36 - 
+Enter username
+2023-01-20 09:49:53 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 09:49:53 INFO  App:36 - 
+Enter username
+2023-01-20 09:50:09 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 09:50:09 INFO  App:36 - 
+Enter username
+2023-01-20 09:50:32 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 09:50:32 INFO  App:36 - 
+Enter username
+2023-01-20 10:04:24 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:04:24 INFO  App:36 - 
+Enter username
+2023-01-20 10:04:32 INFO  App:38 - Enter Password
+2023-01-20 10:04:37 INFO  FeedbackServiceImpl:225 - 
+Trainer Name    Average Rating
+2023-01-20 10:04:37 INFO  FeedbackServiceImpl:227 - GD --->3.625
+2023-01-20 10:04:37 INFO  FeedbackServiceImpl:227 - Gopika --->3.25
+2023-01-20 10:11:49 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:11:49 INFO  App:36 - 
+Enter username
+2023-01-20 10:11:55 INFO  App:38 - Enter Password
+2023-01-20 10:11:59 INFO  FeedbackServiceImpl:225 - 
+Trainer Name    Average Rating
+2023-01-20 10:11:59 INFO  FeedbackServiceImpl:227 - GD --->3.625
+2023-01-20 10:15:13 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:15:13 INFO  App:36 - 
+Enter username
+2023-01-20 10:15:16 INFO  App:38 - Enter Password
+2023-01-20 10:15:19 INFO  FeedbackServiceImpl:227 - 
+Trainer Name    Average Rating
+2023-01-20 10:15:19 INFO  FeedbackServiceImpl:229 - GD --->3.625
+2023-01-20 10:19:43 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:19:43 INFO  App:36 - 
+Enter username
+2023-01-20 10:19:52 INFO  App:38 - Enter Password
+2023-01-20 10:19:55 INFO  FeedbackServiceImpl:227 - 
+Trainer Name    Average Rating
+2023-01-20 10:19:55 INFO  FeedbackServiceImpl:229 - GD --->3.625
+2023-01-20 10:21:11 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-20 10:21:11 INFO  App:36 - 
+Enter username
+2023-01-20 10:21:19 INFO  App:38 - Enter Password
+2023-01-20 10:21:22 INFO  FeedbackServiceImpl:227 - 
+Trainer Name    Average Rating
+2023-01-20 10:21:22 INFO  FeedbackServiceImpl:229 - Gopika --->3.25

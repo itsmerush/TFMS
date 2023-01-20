@@ -207,6 +207,33 @@ public class FeedbackServiceImpl  implements FeedbackService{
 				e.printStackTrace();
 		}
 	}
+
+
+
+
+
+
+	@Override
+	public void showFeedbackDetailsForTrainer(String username) {
+		// TODO Auto-generated method stub
+		try {
+			String s="'"+username+"'";
+			Connection connection=App.con;
+			Statement stmt1=connection.createStatement();
+			//String sql1="select t.trainer_name as 'Trainer',avg(f.rating) as 'Average Trainer Rating' from feedback f join trainer t on f.trainer_id=t.trainer_id group by f.trainer_id";
+			String sq="select t.trainer_name as 'Trainer',avg(f.rating) as 'Average Trainer Rating' from feedback f join trainer t on f.trainer_id=t.trainer_id group by f.trainer_id having t.trainer_name=TrainerNameFromUser;";
+			String sq2=sq.replace("TrainerNameFromUser", s);
+			ResultSet rs1=stmt1.executeQuery(sq2);
+			logger.info("\nTrainer Name"+"    "+"Average Rating");
+			while(rs1.next()) {
+				logger.info(rs1.getString(1)+ " --->"+ rs1.getString(2));
+		
+			}
+		
+		}catch (SQLException e) {
+			e.printStackTrace();
+	}
+	}
 	
 	
 

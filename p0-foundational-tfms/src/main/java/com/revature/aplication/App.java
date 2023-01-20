@@ -49,6 +49,8 @@ public class App {
 			feedbackObj.showFeedback();
 		}else if(role.equals("ASSOCIATE")) {
 			feedbackObj.setFeedback();
+		}else if(role.equals("TRAINER")) {
+			feedbackObj.showFeedbackTrainer(username);
 		}
 		
 		
