@@ -5,6 +5,7 @@ package com.revature.config;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Locale;
 import java.util.ResourceBundle;
 
 
@@ -21,16 +22,13 @@ public class DatabaseConnection {
 	public static Connection getConnection() {
 		if(connection == null) {
 
-//		ResourceBundle resourceBundle=ResourceBundle.getBundle("tfms");
-//
-//		String driver=resourceBundle.getString("driver"); 
-//		String dburl=resourceBundle.getString("dbur1");
-//		String username = resourceBundle.getString("username");
-//		String password=resourceBundle.getString("password");
-		String dburl="jdbc:mysql://localhost:3306/tfms";
-		String driver="com.mysql.cj.jdbc.Driver";
-		String username="root";
-		String password="root";
+		ResourceBundle resourceBundle=ResourceBundle.getBundle("tfms",Locale.getDefault());
+
+		String driver=resourceBundle.getString("driver"); 
+		String dburl=resourceBundle.getString("dburll");
+		String username = resourceBundle.getString("username");
+		String password=resourceBundle.getString("password");
+
 
 		try {
 

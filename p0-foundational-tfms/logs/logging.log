@@ -606,3 +606,88 @@ Enter username
 2023-01-20 18:43:21 INFO  FeedbackServiceImpl:238 - 
 Trainer Name    Average Rating
 2023-01-20 18:43:21 INFO  FeedbackServiceImpl:240 - GD --->3.5
+2023-01-23 13:04:48 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-23 13:04:48 INFO  App:36 - 
+Enter username
+2023-01-28 10:58:06 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 10:58:06 INFO  App:36 - 
+Enter username
+2023-01-28 11:16:39 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 11:16:39 INFO  App:36 - 
+Enter username
+2023-01-28 11:23:09 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 11:23:09 INFO  App:36 - 
+Enter username
+2023-01-28 11:23:45 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 11:23:45 INFO  App:36 - 
+Enter username
+2023-01-28 11:24:00 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 11:24:00 INFO  App:36 - 
+Enter username
+2023-01-28 11:35:08 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 11:35:08 INFO  App:36 - 
+Enter username
+2023-01-28 12:13:46 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 12:13:46 INFO  App:36 - 
+Enter username
+2023-01-28 12:14:26 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 12:14:26 INFO  App:36 - 
+Enter username
+2023-01-28 12:14:40 INFO  App:38 - Enter Password
+2023-01-28 12:14:45 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-28 12:14:45 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-28 12:14:45 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-28 12:14:45 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+JDBC    INSTRUCTOR    4.5
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Android0.9    INSTRUCTOR    2.5
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Junit    INSTRUCTOR    3.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+JDBC    COURSEMATERIAL    2.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Android0.9    COURSEMATERIAL    4.5
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Junit    COURSEMATERIAL    4.5
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+JDBC    Learning Effectiveness    3.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Learning Effectiveness    2.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Junit    Learning Effectiveness    1.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+JDBC    Environment    2.5
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Environment    3.5
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Junit    Environment    4.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+JDBC    Job Impact    5.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Job Impact    5.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:180 - 
+Junit    Job Impact    2.0
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-28 12:14:47 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
