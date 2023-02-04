@@ -1,4 +1,4 @@
-USE TFMS;
+USE pp;
 #DELETE FROM trainer;
 
 INSERT INTO  trainer 
@@ -40,17 +40,15 @@ VALUES
 
 select * from Batch;
 
+#truncate table QuestionManagent;
+insert into questionManagement values
+('Q001','Instructor','How does instructor communicate with the class'),
+('Q002','Course Material','Have instructor provided proper course study material'),
+('Q003','Learning Effectiveness','Are your all doubts being addressed and solved by the instructor'),
+('Q004','Environment','How is the environment of the class'),
+('Q005','Job Impact','How did the course help you in your job or project');
 
-INSERT INTO  Question 
-VALUES 
-('Q1001','Instructor','abcd'),
-('Q1002','Environment','efgh'),
-('Q1003','Instructor','ieei'),
-('Q1004','Environment','iweis'),
-('Q1005','Instructor','usds')
-;
-
-select * from Question;
+select * from QuestionManagement;
 
 INSERT INTO  Feedback 
 VALUES 
@@ -63,6 +61,10 @@ VALUES
 
 select * from Feedback;
 
+select * from questionmanagement;
+
+insert into user values
+('kunal','k@123','Admin');
 
 
 
