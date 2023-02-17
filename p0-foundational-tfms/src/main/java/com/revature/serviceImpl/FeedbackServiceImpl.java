@@ -171,13 +171,13 @@ public class FeedbackServiceImpl  implements FeedbackService{
 			switch(checkShow) {
 				case 1:
 					Statement stmt=connection.createStatement();
-					String sql="select f.topic as 'Topic',q.question_section as 'Section',avg(f.rating) as 'Average Rating by Section' from Feedback f join Question q on f.question_id=q.question_id group by f.topic,q.question_section";
+					String sql="select (select distinct(t.trainer_name) from trainer t join feedback x on t.trainer_id=x.trainer_id where x.trainer_id=f.trainer_id) as 'TrainerName',f.topic as 'Topic',q.question_section as 'Section',avg(f.rating) as 'Average Rating by Section' from Feedback f join Question q on f.question_id=q.question_id group by f.trainer_id,f.topic,q.question_section order by f.trainer_id";
 				
 					//PreparedStatement ps=connection.prepareStatement(sql);
 					ResultSet rs=stmt.executeQuery(sql);
 					logger.info("\nTopic"+" --->"+"Section"+" --->"+"Average Rating");
 					while(rs.next()) {
-						logger.info("\n"+rs.getString(1)+ "    "+ rs.getString(2)+"    "+rs.getString(3));
+						logger.info("\n"+rs.getString(1)+ "    "+ rs.getString(2)+"    "+rs.getString(3)+"    "+rs.getString(4));
 					
 					
 					}

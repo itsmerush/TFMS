@@ -691,3 +691,295 @@ Junit    Job Impact    2.0
 3 - Show Overall Average Rating 
 2023-01-28 12:14:47 INFO  FeedbackServiceImpl:167 - 
 0 - Exit
+2023-01-28 12:22:09 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-28 12:22:09 INFO  App:36 - 
+Enter username
+2023-01-31 16:31:34 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-31 16:31:34 INFO  App:36 - 
+Enter username
+2023-01-31 16:31:47 INFO  App:38 - Enter Password
+2023-01-31 16:31:52 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-31 16:31:52 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-31 16:31:52 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-31 16:31:52 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+JDBC    INSTRUCTOR    4.5
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Android0.9    INSTRUCTOR    2.5
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Junit    INSTRUCTOR    3.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+JDBC    COURSEMATERIAL    2.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Android0.9    COURSEMATERIAL    4.5
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Junit    COURSEMATERIAL    4.5
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+JDBC    Learning Effectiveness    3.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Learning Effectiveness    2.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Junit    Learning Effectiveness    1.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+JDBC    Environment    2.5
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Environment    3.5
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Junit    Environment    4.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+JDBC    Job Impact    5.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Job Impact    5.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:180 - 
+Junit    Job Impact    2.0
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-31 16:32:21 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-31 23:15:24 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-01-31 23:15:24 INFO  App:36 - 
+Enter username
+2023-01-31 23:18:40 INFO  App:38 - Enter Password
+2023-01-31 23:18:46 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-31 23:18:46 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-31 23:18:46 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-31 23:18:46 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+JDBC    INSTRUCTOR    4.5
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Android0.9    INSTRUCTOR    2.5
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Junit    INSTRUCTOR    3.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+JDBC    COURSEMATERIAL    2.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Android0.9    COURSEMATERIAL    4.5
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Junit    COURSEMATERIAL    4.5
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+JDBC    Learning Effectiveness    3.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Learning Effectiveness    2.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Junit    Learning Effectiveness    1.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+JDBC    Environment    2.5
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Environment    3.5
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Junit    Environment    4.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+JDBC    Job Impact    5.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Android0.9    Job Impact    5.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:180 - 
+Junit    Job Impact    2.0
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-01-31 23:25:15 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-01 00:02:21 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-02-01 00:02:21 INFO  App:36 - 
+Enter username
+2023-02-01 00:02:27 INFO  App:38 - Enter Password
+2023-02-01 00:02:32 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-01 00:02:32 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-01 00:02:32 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-01 00:02:32 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    INSTRUCTOR
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    INSTRUCTOR
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    INSTRUCTOR
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    COURSEMATERIAL
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    COURSEMATERIAL
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    COURSEMATERIAL
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Learning Effectiveness
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Learning Effectiveness
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Learning Effectiveness
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Environment
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Environment
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Environment
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Job Impact
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Job Impact
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Job Impact
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-01 00:02:37 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-10 23:42:44 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-02-10 23:42:44 INFO  App:36 - 
+Enter username
+2023-02-10 23:42:52 INFO  App:38 - Enter Password
+2023-02-10 23:42:55 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-10 23:42:55 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-10 23:42:55 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-10 23:42:55 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    COURSEMATERIAL
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Environment
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    INSTRUCTOR
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Job Impact
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Learning Effectiveness
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    COURSEMATERIAL
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Environment
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    INSTRUCTOR
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Job Impact
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Learning Effectiveness
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    COURSEMATERIAL
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Environment
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    INSTRUCTOR
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Job Impact
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Learning Effectiveness
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-10 23:43:01 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:190 - 
+Trainer Name    Average Rating
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:192 - Gopika --->3.25
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:192 - GD --->3.5
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:192 - Sathya --->3.25
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-10 23:43:43 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-10 23:44:03 INFO  FeedbackServiceImpl:203 - 
+Overall Rating --->3.3333333333333335
+2023-02-10 23:44:03 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-10 23:44:03 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-10 23:44:03 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-10 23:44:03 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-10 23:47:37 INFO  App:35 - 
+**********Welcome to Training Feedback Management System**********
+2023-02-10 23:47:37 INFO  App:36 - 
+Enter username
+2023-02-10 23:47:44 INFO  App:38 - Enter Password
+2023-02-10 23:47:50 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-10 23:47:50 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-10 23:47:50 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-10 23:47:50 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:178 - 
+Topic --->Section --->Average Rating
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    COURSEMATERIAL    4.5
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Environment    3.5
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    INSTRUCTOR    2.5
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Job Impact    5.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+GD    Android0.9    Learning Effectiveness    2.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    COURSEMATERIAL    2.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Environment    2.5
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    INSTRUCTOR    4.5
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Job Impact    5.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Gopika    JDBC    Learning Effectiveness    3.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    COURSEMATERIAL    4.5
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Environment    4.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    INSTRUCTOR    3.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Job Impact    2.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:180 - 
+Sathya    Junit    Learning Effectiveness    1.0
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:164 - 
+1 - Show Average Rating according to Topic and Section
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:165 - 
+2 - Show Average Rating according to Trainer Name
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:166 - 
+3 - Show Overall Average Rating 
+2023-02-10 23:47:52 INFO  FeedbackServiceImpl:167 - 
+0 - Exit
